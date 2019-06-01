@@ -1,4 +1,4 @@
-package start
+dpackage start
 
 import (
 	"context"
@@ -114,7 +114,7 @@ func (b *startCommand) Run() error {
 				select {
 				case <-ctx.Done():
 				default:
-					UserOutput("Assert creation failed: %v\n", err)
+					UserOutput("Asset creation failed: %v\n", err)
 					cancel()
 				}
 			}
